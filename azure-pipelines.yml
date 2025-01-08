@@ -20,6 +20,6 @@ steps:
     cd ngAngularApp
     npm install -g @angular/cli
     npm install
-    npm run build
+    npm run build --configuration=production
   displayName: 'npm install and build'
 
