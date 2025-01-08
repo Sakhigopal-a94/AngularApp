@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd shoppingApp
+    cd shoppingapp
     npm install -g @angular/cli
     npm install
     npm run build --configuration=production
